@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter">
     <title>Frontend Mentor | Social links profile</title>
 
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
         body {
             background-color: hsl(0, 0%, 8%);
@@ -20,10 +21,8 @@
         .container {
             background-color: hsl(0, 0%, 12%);
             color: hsl(0, 0%, 100%);
-            padding: 20px 32px;
-            margin: 50px auto;
-            max-width: 350px;
-            border-radius: 16px;
+            padding: 20px 5px;
+            margin: 50px 500px;
         }
         
         .container h4 {
@@ -32,19 +31,13 @@
         
         .container img {
             border-radius: 50%;
-            width: 100px;
-            height: 100px;
-            margin-top: 16px;
-            margin-bottom: 16px;
         }
         
         ul {
             background-color: hsl(0, 0%, 20%);
-            padding: 8px;
-            margin: 10px 8px;
-            border-radius: 10px;
-            list-style: none;
-            font-size: 16px;
+            padding: 12px 0;
+            margin: 8px 16px;
+            border-radius: 8px;
         }
         
         .attribution {
@@ -55,6 +48,7 @@
         .attribution a {
             color: hsl(228, 45%, 44%);
         }
+        /* ...existing code... */
         
         @media screen and (max-width: 375px) {
             .container {
@@ -75,12 +69,13 @@
                 width: 80px;
                 height: 80px;
             }
-            ul {
-                font-size: 14px;
+            ul li {
                 margin: 6px 4px;
                 padding: 10px 0;
+                font-size: 14px;
             }
         }
+        /* ...existing code... */
     </style>
 </head>
 
@@ -90,11 +85,13 @@
         <h1>Jessica Randall</h1>
         <h4>London, United Kingdom</h4>
         <p>"Front-end developer and avid reader."</p>
-        <ul>GitHub</ul>
-        <ul>Frontend Mentor</ul>
-        <ul>LinkedIn</ul>
-        <ul>Twitter</ul>
-        <ul>Instagram</ul>
+        <ul>
+            <li>GitHub</li>
+            <li>Frontend Mentor</li>
+            <li>LinkedIn</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+        </ul>
     </div>
 
 </body>
